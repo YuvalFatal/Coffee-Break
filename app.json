@@ -1,0 +1,8 @@
+{
+  "name": "Coffee Break",
+  "description": "An app for OSH hackathon. ",
+  "repository": "https://github.com/YuvalFatal/Coffee-Break",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
