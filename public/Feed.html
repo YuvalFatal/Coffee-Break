@@ -14,7 +14,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body>
+	<body onload="get_events()">
 
 		<!-- Header -->
 			<div id="header">
@@ -59,11 +59,12 @@
             <section id="top" class="two">
                 <div class="container">
 
-                    <header>
+                    <header id="change_header">
                         <h2>Feed</h2>
+                        <p>There is no events right now!</p>
                     </header>
 
-                    <p>There is no events right now!</p>
+                    
                     
 
 
@@ -76,6 +77,7 @@
 			
 
 		<!-- Scripts -->
+			<script src="assets/js/client.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
