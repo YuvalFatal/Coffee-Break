@@ -34,7 +34,6 @@ app.get('/get_events', function (req, res) {
 app.get('/get_chat', function (req, res) {
 
    // Prepare output in JSON format
-   console.log(events);
    res.send(JSON.stringify(events[req.query.num_event][2]));
 });
 
