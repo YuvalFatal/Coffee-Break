@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title></title>
+		<title>Create Event</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -31,19 +31,6 @@
 
 					<!-- Nav -->
 						<nav id="nav">
-							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
 							<ul>
 								<li><a href="CreateEvent.html" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Create Event</span></a></li>
 								<li><a href="Feed.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Feed</span></a></li>
@@ -64,10 +51,17 @@
 
 							<header id="change_header">
 
-                                <h2>Title :   <input id="event_title" type="text" /></h2></br>
-                                <h2>Description of event: </h2></br>
+								<h3> Create Your Event</h3>
+
+                                <p>Title: </p>
+                                <input id="event_title" type="text" />
+                                </br>
+
+                                <p>Description of event: </p>
                                 <textarea class="ta1" id="event_desc"></textarea>
-                                <button onclick="create_event()" class="button scrolly" value="Create Event">
+                                </br>
+
+                                <input type="submit" onclick="create_event()" value="Create Event">
 								
 							</header>
 
@@ -77,8 +71,6 @@
 						</div>
 					</section>
 
-		
-				
 			</div>
 
 		<!-- Footer -->
